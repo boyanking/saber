@@ -1,0 +1,279 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-family: Lato;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+}
+header h1 {
+  font-family: Cinzel;
+  color: #1d5378;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 60px;
+}
+header nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+}
+header nav a {
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 10px;
+  color: #545454;
+}
+header nav a.cur {
+  color: #398fc5;
+}
+.forkme {
+  position: fixed;
+  top: 40px;
+  right: -40px;
+  height: 30px;
+  width: 193px;
+  text-align: center;
+  background: url("img/forkme-bg.png") 0 0 repeat-x;
+  line-height: 30px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-box-shadow: 0 0 5px #666;
+  box-shadow: 0 0 5px #666;
+}
+.forkme a {
+  color: #fff;
+  text-shadow: 0 0 3px #333;
+}
+.intro {
+  height: 500px;
+  background: url("img/intro-bg.png") 0 0 repeat-x;
+}
+.intro .slogan {
+  width: 960px;
+  margin: 0 auto;
+  height: 200px;
+}
+.intro .slogan h2 {
+  color: #fff;
+  margin: 0;
+  padding-top: 65px;
+  font-family: Abel;
+  font-size: 36px;
+  font-weight: normal;
+}
+.intro .slogan p {
+  color: #b3d3e8;
+}
+.intro .feature {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  height: 300px;
+}
+.intro .feature .title {
+  margin: 0;
+  padding-top: 40px;
+  color: #fff;
+}
+.intro .feature ul {
+  margin: 20px 0 40px;
+  color: #b3d3e8;
+}
+.intro .feature .btn {
+  display: inline-block;
+  margin-right: 20px;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+}
+.intro .feature .btn:hover {
+  background: #fff;
+  color: #65a8de;
+}
+.intro .feature .demo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 480px;
+  width: 320px;
+  background: url("img/demo.png") 0 0 no-repeat;
+  border: 10px solid rgba(0,0,0,0.3);
+}
+.package {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+.package:before,
+.package:after {
+  content: "";
+  display: table;
+}
+.package:after {
+  clear: both;
+}
+.package h3 {
+  font-size: 32px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.package p.sub-text {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 50px;
+}
+.package .module {
+  float: left;
+  padding: 10px;
+  width: 198px;
+  height: 58px;
+  margin: 10px;
+  color: #333;
+  background: #edf0f1;
+  font-size: 12px;
+  border: 1px solid #edf0f1;
+  cursor: pointer;
+}
+.package .module strong {
+  display: block;
+  color: #398fc5;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.package .module:hover {
+  background: #fff;
+}
+.package .module:visited {
+  color: #333;
+}
+.package .preview {
+  float: left;
+  margin: 0 10px;
+}
+footer {
+  background: #ecf0f1;
+  height: 100px;
+  line-height: 100px;
+  color: #7a7b7c;
+  text-align: center;
+}
+footer a {
+  color: #7a7b7c;
+}
+footer a:hover {
+  text-decoration: underline;
+}
