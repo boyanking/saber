@@ -112,14 +112,13 @@ header h1 {
 }
 header nav {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   right: 0;
   font-size: 12px;
 }
 header nav a {
-  font-weight: bold;
   margin-left: 25px;
-  margin-right: 10px;
+  margin-right: 12px;
   color: #545454;
 }
 header nav a.cur {
